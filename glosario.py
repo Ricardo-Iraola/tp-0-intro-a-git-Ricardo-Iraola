@@ -29,13 +29,24 @@ def glosario_inicial():
     for termino, definicion in terminos.items():
         print(f"-> {termino}: {definicion}")
 
-def glosario_virtualenv():
-    termino = "VENV"  
+# --- TAREA PARA EL ALUMNO ---
+# Instrucciones:
+# 1. Crea una rama 'feature-tu-termino'
+# 2. Crea una función nueva siguiendo el ejemplo de abajo
+# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
+
+
+def definicion_virtualenv():
+    """
+    EJEMPLO: El alumno debe renombrar esta función y completar su término.
+    """
+    termino = "VENV"  # Reemplazar con el término asignado o elegido
     definicion = "Virtual-Enviroments. Es una herramienta que permite crear entornos aislados de Python para gestionar dependencias de manera independiente."
-    print(f"[NUEVO] {termino}: {definicion}")
+    print(f"[Virtual-Enviroments] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-    glosario_virtualenv()
+    definicion_virtualenv()
+
