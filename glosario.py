@@ -29,7 +29,6 @@ def glosario_inicial():
     for termino, definicion in terminos.items():
         print(f"-> {termino}: {definicion}")
 
-
 # --- TAREA PARA EL ALUMNO ---
 # Instrucciones:
 # 1. Crea una rama 'feature-tu-termino'
